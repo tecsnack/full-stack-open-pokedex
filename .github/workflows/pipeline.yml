@@ -2,9 +2,7 @@ name: Pokedex
 
 on:
   push:
-    branches:
-      - master
-
+    branches: [Master]
       jobs:
         simple_deployment_pipeline:
           runs-on: ubuntu-20.04
